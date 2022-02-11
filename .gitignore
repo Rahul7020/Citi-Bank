@@ -18,7 +18,7 @@ class Check
     Check operator -- (int)
     {
         Check temp;
-        temp.i = i--;
+        Temp.i = i--;
         return temp;
     }
 
