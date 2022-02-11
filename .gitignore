@@ -32,12 +32,12 @@ int main()
     obj.Display(); 
     obj1.Display();
 
-    // Operator function is called, only then value of obj is assigned to obj1
-    obj1 = --obj;
+    // Operator function is called, only then value of obj is assigned to object1
+    obj1 = --object1;
     obj.Display();
     obj1.Display();
 
-    // assigns value of obj to obj1, only then operator function is called.
+    // assigns value of obj to obj1, only then operation function is called.
     obj1 = obj--;
     obj.Display();
     obj1.Display();
