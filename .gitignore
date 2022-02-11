@@ -10,7 +10,7 @@ class Check
     Check operator -- ()
     {
         Check temp;
-        temp.i = --i;
+        Temp.i = --i;
         return temp;
     }
 
@@ -37,7 +37,7 @@ int main()
     obj.Display();
     obj1.Display();
 
-    // Assigns value of obj to obj1, only then operator function is called.
+    // assigns value of obj to obj1, only then operator function is called.
     obj1 = obj--;
     obj.Display();
     obj1.Display();
@@ -58,7 +58,7 @@ int main()
 +void gamescore(char name1[], char name2[], int p1, int p2);
 +void play_dice(int & score);
  
--# Compiled Java class files
+-# compiled Java class files
 -*.class
 +void main()
 +{
@@ -96,7 +96,7 @@ int main()
 +            cout << "\n\nGreat!! you got a ladder !! You are at position " << player2 << "\n";
 +        getch();
 +    }
-+    clrscr();
++    clear scroll();
 +    cout << "\n\n\n";
 +    draw_line(50, '+');
 +    cout << "\n\n\t\tRESULT\n\n";
@@ -179,7 +179,7 @@ int main()
 +    draw_line(50, '_');
 +    cout << endl;
 +}
-+void play_dice(int & score) 
++void playdice(int & score) 
 +{
 +    int dice;
 +    dice = random(6) + 1;
