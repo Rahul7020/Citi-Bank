@@ -126,7 +126,8 @@ int main()
 +    draw_line(50, '-');
 +    cout << "\n\t\tSNAKE AT POSITION\n";
 +    draw_line(50, '-');
-+    cout << "\n\tFrom 98 to 28 \n\tFrom 95 to 24\n\tFrom 92 to 51\n\tFrom 83 to 19\n\tFrom 73 to 1\n\tFrom 69 to 33\n\tFrom 64 to 36\n\tFrom 59 to 17\n\tFrom 55 to 7\n\tFrom 52 to 11\n\tFrom 48 to 9\n\tFrom 46 to 5\n\tFrom 44 to 22\n\n";
++    cout << "\n\tFrom 98 to 28 \n\tFrom 95 to 24\n\tFrom 92 to 51\n\tFrom 83 to 19\n\tFrom 73 to 1\n\t
++    cout From 69 to 33\n\tFrom 64 to 36\n\tFrom 59 to 17\n\tFrom 55 to 7\n\tFrom 52 to 11\n\tFrom 48 to 9\n\tFrom 46 to 5\n\tFrom 44 to 22\n\n";
 +    draw_line(50, '-');
 +    cout << "\n\t\t LADDER AT POSITION\n";
 +    draw_line(50, '-');
@@ -325,7 +326,8 @@ public class MainClass {
 function aa(a)
 {var b=0;return function()
 {return b<a.length?{done:!1,value:a[b++]}:{done:!0}}}var
-ba="function"==typeof Object.defineProperties?Object.defineProperty:function(a,b,c)
+ba="function"==typeof Object.defineProperties?
+Object.defineProperty:function(a,b,c)
 {if(a==Array.prototype||a==Object.prototype)return a;a[b]=c.value;return a}; 
 function ca(a){a=["object"==typeof
 globalThis&&globalThis,a,"object"==typeof
@@ -380,20 +382,24 @@ function qa(a,b){a instanceof String&&(a+="");var c=0,d=!1,e={next:function()
 {if(!d&&c<a.length){var f=c++;return{value:b(f,a[f]),done:!1}}
 d=!0;return{done:!0,value:void 0}}};
 e[t(k.Symbol,"iterator")]=function(){return e};return
-e}u("Array.prototype.values",function(a){return a?a:function()
+e}u("Array.prototype.values",
+function(a){return a?a:function()
 {return qa(this,function(b,c){return c})}},"es8");
-u("Array.prototype.keys",function(a){return a?a:function()
+u("Array.prototype.keys",
+function(a){return a?a:function()
 {return qa(this,function(b){return b})}},"es6"); 
 u("Object.values",function(a)
 {return a?a:function(b){var c=[],d;for(d 
 in b)Object.prototype.hasOwnProperty.call(b,d)&&c.
-push(b[d]);return c}},"es8");var x=this||self;function ra(a,b)
+push(b[d]);return c}},"es8");var x=this||self;
+function ra(a,b)
 {function c(){}c.prototype=b.prototype;a.K=b.prototype;a.prototype=new 
 c;a.prototype.constructor=a;a.Y=function(d,e,f)
 {for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];
 return b.prototype[e].apply(d,g)}}function sa(a){return a};
 function ta(a){a=parseFloat(a);
-return isNaN(a)||1<a||0>a?0:a};function y(a){if(Error.captureStackTrace)
+return isNaN(a)||1<a||0>a?0:a};
+function y(a){if(Error.captureStackTrace)
 Error.captureStackTrace(this,y);
 else
 {var b=Error().stack;b&&(this.stack=b)}a&&(this.message=String(a))
@@ -405,7 +411,8 @@ function A(a,b){this.h=a===va&&b||
 "";this.i=wa}A.prototype.l=!0;A.prototype.g=function(){return this.h};
 function xa(a){return a instanceof
 A&&a.constructor===A&&a.i===wa?a.h:"type_error:Const"}var
-wa={},va={};var ya=Array.prototype.indexOf?function(a,b)
+wa={},va={};var ya=Array.prototype.indexOf?
+function(a,b)
 {return Array.prototype.indexOf.call(a,b,void 0)}:
 function(a,b){if("string"===typeof a)return"string"!==typeof
 b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c<a.length;c++)if(c in a&&a[c]===b)
@@ -422,18 +429,23 @@ function C(a,b){this.i=b===Fa?a:""}C.prototype.l=!0;C.prototype.g=
 function(){return this.i.toString()};C.prototype.A=!0;C.prototype.h=
 function(){return 1};C.prototype.toString=function(){return this.i+""};
 function Ga(a){return a instanceof C&&a.constructor===C?a.i:"type_error:TrustedResourceUrl"}var
-Ha=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,Fa={};function Ia(a){var b=Ca();a=b?b.createScriptURL(a):a;return new C(a,Fa)} 
+Ha=/^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,Fa={};
+function Ia(a){var b=Ca();a=b?b.createScriptURL(a):a;return new C(a,Fa)} 
 function Ja(a,b,c){if(null==c)return b;if("string"===typeof c)return c?a+encodeURIComponent(c):"";
 for(var d in c)if(Object.prototype.hasOwnProperty.call
 (c,d)){var e=c[d];e=Array.isArray(e)?e:
-[e];for(var f=0;f<e.length;f++){var g=e[f];null!=g&&(b||(b=a),b+=(b.length>a.length?"&":"")+encodeURIComponent(d)
+[e];for(var f=0;f<e.length;f++){var g=e[f];null!=g&&(b||(b=a),
+b+=(b.length>a.length?"&":"")+encodeURIComponent(d)
 +"="+encodeURIComponent(String(g)))}}return b};function Ka(a){if(!La.test(a))
 return; 
 function Wa(a){if(a instanceof D)return a;a="object"==typeof
-a&&a.l?a.g():String(a);Va.test(a)?a=new D(a,Sa):(a=String(a),a=a.replace(/(%0A|%0D)/g,""),
+a&&a.l?a.g():String(a);Va.test(a)?a=ne
+D(a,Sa):(a=String(a),a=a.replace(/(%0A|%0D)/g,""),
 a=a.match(Ua)?new D(a,Sa):null);return a}var Sa={},Xa=new D("about:invalid#zClosurez",Sa);var
-Ya={};function E(a,b){this.h=b===Ya?a:"";this.l=!0}E.prototype.g=
-function(){return this.h};E.prototype.toString=function(){return this.h.toString()};var Za=new E("",Ya);  
+Ya={};
+function E(a,b){this.h=b===Ya?a:"";this.l=!0}E.prototype.g=
+function(){return this.h};E.prototype.toString=
+function(){return this.h.toString()};var Za=new E("",Ya);  
 function eb(a){for(var b=!0,c=/^[-_a-zA-Z0-9]$/,d=0;d<a.length;d++){var e=a.charAt(d);if("]"==e){if(b)
 return!1;b=!0}else if("["==e){if(!b)return!1;b=!1}else if(!b&&!c.test(e))return!1}return b} 
 
