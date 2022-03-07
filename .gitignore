@@ -450,3 +450,55 @@ function eb(a){for(var b=!0,c=/^[-_a-zA-Z0-9]$/,d=0;d<a.length;d++){var e=a.char
 return!1;b=!0}else if("["==e){if(!b)return!1;b=!1}else if(!b&&!c.test(e))return!1}return b} 
 
  a)}})(window,navigator,document);}).call(this);
+ 
+    }
+  ],
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.citiuat"
+    }, {
+    "platform": "itunes",{
+  "name": "Citi bank",
+  "gcm_sender_id": "888803791909",
+
+  "name": "Citi India",
+  "short_name": "Citi India",
+  "icons": [
+    {
+      "src": "launcher-icon-0-75x.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher-icon-1x.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher-icon-1-5x.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher-icon-2x.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher-icon-3x.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "launcher-icon-4x.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    "url": "https://itunes.apple.com/in/app/citibank-in/id467987820"
+  }
+  ],
+  "start_url": "./index.htm",
+  "display": "standalone"
+}
+
