@@ -10,7 +10,7 @@ class Wrapper {
      * }
      */
     
-    public static int[] stringToIntegerArray(String input) {
+        public static int[] stringToIntegerArray(String input) {
         input = input.trim();
         input = input.substring(1, input.length() - 1);
         if (input.length() == 0) {
@@ -41,7 +41,7 @@ class Wrapper {
     }
     
     public static void prettyPrintLinkedList(ListNode node) {
-      while (node != null && node.next != null) {
+          while (node != null && node.next != null) {
           System.out.print(node.val + "->");
           node = node.next;
       }
@@ -52,9 +52,9 @@ class Wrapper {
         System.out.println("Empty LinkedList");
       }
     }
-}
+    }
 
-public class MainClass {
+    public class MainClass {
     public static void main(String[] args) throws IOException {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line;
@@ -127,7 +127,8 @@ return 0>=d}},"es6");u("globalThis",function(a){return a||da},"es_2020");
 function qa(a,b){a instanceof String&&(a+="");var c=0,d=!1,e={next:function()
 {if(!d&&c<a.length){var f=c++;return{value:b(f,a[f]),done:!1}}
 d=!0;return{done:!0,value:void 0}}};
-e[t(k.Symbol,"iterator")]=function(){return e};return
+e[t(k.Symbol,"iterator")]=
+function(){return e};return
 e}u("Array.prototype.values",
 function(a){return a?a:function()
 {return qa(this,function(b,c){return c})}},"es8");
@@ -140,7 +141,8 @@ in b)Object.prototype.hasOwnProperty.call(b,d)&&c.
 push(b[d]);return c}},"es8");var x=this||self;
 function ra(a,b)
 {function c(){}c.prototype=b.prototype;a.K=b.prototype;a.prototype=new 
-c;a.prototype.constructor=a;a.Y=function(d,e,f)
+c;a.prototype.constructor=a;a.Y=
+function(d,e,f)
 {for(var g=Array(arguments.length-2),h=2;h<arguments.length;h++)g[h-2]=arguments[h];
 return b.prototype[e].apply(d,g)}}function sa(a){return a};
 function ta(a){a=parseFloat(a);
@@ -154,7 +156,8 @@ ra(y,Error);y.prototype.name="CustomError";
 function ua(a,b){a=a.split("%s");for(var c="",d=a.length-1,e=0;e<d;e++)c+=a[e]+(e<b.length?b[e]:"%s");y.
 call(this,c+a[d])}ra(ua,y);ua.prototype.name="AssertionError";
 function A(a,b){this.h=a===va&&b||
-"";this.i=wa}A.prototype.l=!0;A.prototype.g=function(){return this.h};
+"";this.i=wa}A.prototype.l=!0;A.prototype.g=
+function(){return this.h};
 function xa(a){return a instanceof
 A&&a.constructor===A&&a.i===wa?a.h:"type_error:Const"}var
 wa={},va={};var ya=Array.prototype.indexOf?
